@@ -1,0 +1,87 @@
+
+.User_info {
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 1000px;
+  margin: 20px auto;
+  background-color: #f4f4f4;
+  border: 2px solid;
+  border-radius: 8px;
+  padding: 5px;
+  height: 900px;
+  width: 950px;
+}
+
+
+
+
+
+
+
+  
+.flip-box-inner{
+    text-align: center;
+    transition: transform 0.8s;
+  transform-style: preserve-3d;
+}  
+
+.User_info:hover   .flip-box-inner{
+
+    transform: rotateY(180deg);
+    
+}
+
+
+.flip-box-front, .flip-box-back {
+    
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+
+
+  .flip-box-back {
+    
+    transform: rotateY(180deg);
+  }
+  
+  strong {
+    margin-right: 5px;
+  }
+  
+  div {
+    margin-bottom: 10px;
+  }
+
+.FitnessGoals{
+
+    
+   margin-top: 0;
+
+}
+
+.social-media-icons{
+
+    display: flex;
+  justify-content: center;
+  align-items:baseline;
+
+}
+
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  strong {
+    margin-right: 5px;
+  }
+  
+  div {
+    margin-bottom: 10px;
+  }
+  
+  
+
+body {background-color: rgb(80, 153, 255);}
